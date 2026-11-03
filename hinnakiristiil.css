@@ -1,0 +1,32 @@
+@font-face {
+    font-family: garamond;
+    src: url('fonts/EBGaramond-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: garamond-italic;
+    src: url('fonts/EBGaramond-Italic-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #e5fae1;
+    margin: 30px;
+}
+
+h1 {
+    color: #39453c;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #39453c;
+    font-family: garamond-italic;
+}
+
+ul, li {
+    font-family: garamond;
+    list-style-type: none;
+    font-size: 16px;
+    color: #39453c;
+}
